@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>Some Title</title>
+      <title>Montrell Jubilee Portfolio</title>
       </Helmet>
       <div className="App">
         <AppRoutes />
