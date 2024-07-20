@@ -27,7 +27,7 @@ const Home = () => {
           </div>
           <div className="flex gap-4 mt-8">
             <a
-              href="../../resume.pdf"
+              href="/resume.pdf"
               download="Montrell_Jubilee_Resume.pdf"
               className="inline-flex h-12 items-center justify-center rounded-md bg-blue-600 px-6 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
