@@ -2,7 +2,6 @@ import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 import Layout from '../../components/Layout/Layout'
-import Faqs from '../../components/Components/Faqs'
 
 // with this story you can quickly test building a page with various components passed in as children
 export default {
@@ -12,23 +11,6 @@ export default {
 
 const Template: ComponentStory<typeof Layout> = (args) => <Layout {...args} />
 
-const myFaqs = [
-  {
-    id: 1,
-    question: 'Is programming easy?',
-    answer: 'No'
-  },
-  {
-    id: 2,
-    question: 'How long did this take?',
-    answer: 'Too Long'
-  },
-  {
-    id: 3,
-    question: 'How are you feeling today?',
-    answer: 'Been coding for 12 hours... i am tired'
-  }
-]
 export const BuildAPage = Template.bind({})
 BuildAPage.args = {
   children: (
@@ -36,7 +18,6 @@ BuildAPage.args = {
       <div>Some Content</div>
       <div>Some more Content</div>
       <div>Even More Content</div>
-      <Faqs faqs={myFaqs} />
     </div>
   )
 }
@@ -49,7 +30,6 @@ NoNavPage.args = {
       <div>Some Content</div>
       <div>Some more Content</div>
       <div>Even More Content</div>
-      <Faqs faqs={myFaqs} />
     </div>
   )
 }
@@ -62,7 +42,6 @@ NoFooterPage.args = {
       <div>Some Content</div>
       <div>Some more Content</div>
       <div>Even More Content</div>
-      <Faqs faqs={myFaqs} />
     </div>
   )
 }
