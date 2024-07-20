@@ -10,8 +10,7 @@ const Home = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter">Montrell Jubilee</h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-primary-foreground">Full-Stack Developer</h2>
           <p className="max-w-[700px] text-lg md:text-xl lg:text-2xl text-primary-foreground">
-            I'm a passionate full-stack developer with a love for creating innovative and user-friendly web
-            applications.
+            With over 5 years of experience, I'm a passionate full-stack developer dedicated to creating innovative and user-friendly web applications. I enjoy reading books on building better products and becoming an effective team member. In my free time, I love playing FIFA and drawing. Currently, I am diving into machine learning paradigms and working towards completing my AWS Cloud Practitioner certification.
           </p>
         </div>
       </section>
