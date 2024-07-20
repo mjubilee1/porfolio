@@ -115,6 +115,54 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg flex flex-col h-full transition-transform duration-300 hover:scale-105">
+              <div className="relative h-60">
+                <img
+                  src="/python.jpeg"
+                  alt="Project 3"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+              <div className="flex flex-col justify-between p-6 bg-gray-800 text-white h-full">
+                <p className="text-lg">
+                  Developed a Node.js service to support REST API routes for frontend and mobile applications.
+                </p>
+                <div className="mt-4 flex flex-col items-center gap-2">
+                  <a
+                    href="https://github.com/TeamSleeplessGamers/machine-learning"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg flex flex-col h-full transition-transform duration-300 hover:scale-105">
+              <div className="relative h-60">
+                <img
+                  src="/nodejs.png"
+                  alt="Project 3"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+              <div className="flex flex-col justify-between p-6 bg-gray-800 text-white h-full">
+                <p className="text-lg">
+                  Developed using Solidity for crypto contracts, creating arbitrage contracts, and React for the frontend.
+                </p>
+                <div className="mt-4 flex flex-col items-center gap-2">
+                  <a
+                    href="https://github.com/FriendlyRealtor/friendly-realtor-backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
