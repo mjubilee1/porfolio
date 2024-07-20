@@ -125,8 +125,8 @@ const Home = () => {
               </div>
               <div className="flex flex-col justify-between p-6 bg-gray-800 text-white h-full">
                 <p className="text-lg">
-                  Developed a Node.js service to support REST API routes for frontend and mobile applications.
-                </p>
+                  Developed a Python script to pull Twitch user channels and used Tesseract and OpenCV to analyze Warzone gaming footage, extracting the number of kills received during a match.
+                </p> 
                 <div className="mt-4 flex flex-col items-center gap-2">
                   <a
                     href="https://github.com/TeamSleeplessGamers/machine-learning"
@@ -149,7 +149,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col justify-between p-6 bg-gray-800 text-white h-full">
                 <p className="text-lg">
-                  Developed using Solidity for crypto contracts, creating arbitrage contracts, and React for the frontend.
+                  Developed a Node.js service to support REST API routes for frontend and mobile applications.
                 </p>
                 <div className="mt-4 flex flex-col items-center gap-2">
                   <a
