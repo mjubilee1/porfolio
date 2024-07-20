@@ -39,15 +39,23 @@ const Home = () => {
                 <p className="text-lg">
                   A modern web application developed using Node.js, NextJs, Firebase, TailwindCss.
                 </p>
-                <div className="mt-4 flex justify-center">
-                  <a
-                    href="https://jubileespace.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  >
-                    Learn More
-                  </a>
+                <div className="mt-4 flex gap-4 justify-center">
+                <a
+                  href="https://jubileespace.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://jubileespace.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-green-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+                >
+                  View
+                </a>
                 </div>
               </div>
             </div>
@@ -63,14 +71,22 @@ const Home = () => {
                 <p className="text-lg">
                   Developed this app using React Native, OpenAI, Node.js, and Firebase.
                 </p>
-                <div className="mt-4 flex justify-center">
+                <div className="mt-4 gap-4 flex justify-center">
                   <a
-                    href="https://apps.apple.com/us/app/jubileespace-real-estate/id6446328944"
+                    href="https://github.com/FriendlyRealtor/jubilee-space"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    Learn More
+                    Source Code
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/jubileespace-real-estate/id6446328944"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-green-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  >
+                     View
                   </a>
                 </div>
               </div>
@@ -94,7 +110,7 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    Learn More
+                    Source Code
                   </a>
                 </div>
               </div>
