@@ -14,7 +14,91 @@ const Home = () => {
           </p>
         </div>
       </section>
-      
+      {/* Feature Work Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm text-gray-600">My Work</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-800">Featured Projects</h2>
+              <p className="max-w-3xl text-lg text-gray-600 md:text-xl">
+                Check out some of my recent projects and the technologies I used to bring them to life.
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/friendlyrealtor-site.png"
+                width={640}
+                height={360}
+                alt="Project 1"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.3)] flex flex-col items-center justify-center p-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h3 className="text-2xl font-bold text-white">Project 1</h3>
+                <p className="text-lg text-white">
+                  A modern web application developed using Node.js, NextJs, Firebase.
+                </p>
+                <a
+                  href="https://friendlyrealtor.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/friendlyrealtor-app.png"
+                width={640}
+                height={360}
+                alt="Project 2"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.3)] flex flex-col items-center justify-center p-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h3 className="text-2xl font-bold text-white">Project 2</h3>
+                <p className="text-lg text-white">
+                  Developed this app using React Native, OpenAI, Node.js, and Firebase.
+                </p>
+                <a
+                  href="https://apps.apple.com/us/app/jubileespace-real-estate/id6446328944"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/crypto-bot.jpeg"
+                width={640}
+                height={360}
+                alt="Project 3"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.3)] flex flex-col items-center justify-center p-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h3 className="text-2xl font-bold text-white">Project 3</h3>
+                <p className="text-lg text-white">
+                  Developed using Solidity for crypto contracts, creating arbitrage contracts, and React for the frontend.
+                </p>
+                <a
+                  href="https://github.com/mjubilee1/crypto-bots"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Resume Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white flex items-center justify-center">
         <div className="container flex flex-col items-center justify-center gap-6 px-4 md:px-6 text-center">
