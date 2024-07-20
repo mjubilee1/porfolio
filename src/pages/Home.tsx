@@ -113,6 +113,12 @@ const Home = () => {
             </p>
           </div>
           <div className="flex gap-4 mt-8">
+            <Link
+              to="https://www.linkedin.com/in/montrell-jubilee-04b615190"
+              className="inline-flex h-12 items-center justify-center rounded-md border border-gray-300 bg-white px-6 text-sm font-medium text-blue-600 shadow-lg transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              View on LinkedIn
+            </Link>
             <a
               href="/resume.pdf"
               download="Montrell_Jubilee_Resume.pdf"
@@ -121,10 +127,12 @@ const Home = () => {
               Download Resume
             </a>
             <Link
-              to="https://www.linkedin.com/in/montrell-jubilee-04b615190"
+              to="https://github.com/mjubilee1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex h-12 items-center justify-center rounded-md border border-gray-300 bg-white px-6 text-sm font-medium text-blue-600 shadow-lg transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              View on LinkedIn
+              View on GitHub
             </Link>
           </div>
         </div>
