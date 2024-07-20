@@ -20,7 +20,7 @@ const Home = () => {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm text-gray-600">My Work</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-800">Featured Projects</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-800">Passion Projects</h2>
               <p className="max-w-3xl text-lg text-gray-600 md:text-xl">
                 Check out some of my recent projects and the technologies I used to bring them to life.
               </p>
