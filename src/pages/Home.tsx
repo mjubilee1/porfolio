@@ -26,12 +26,13 @@ const Home = () => {
             </p>
           </div>
           <div className="flex gap-4 mt-8">
-            <Link
-              to="../../resume.pdf"
+            <a
+              href="../../resume.pdf"
+              download="Montrell_Jubilee_Resume.pdf"
               className="inline-flex h-12 items-center justify-center rounded-md bg-blue-600 px-6 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               Download Resume
-            </Link>
+            </a>
             <Link
               to="https://www.linkedin.com/in/montrell-jubilee-04b615190"
               className="inline-flex h-12 items-center justify-center rounded-md border border-gray-300 bg-white px-6 text-sm font-medium text-blue-600 shadow-lg transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
