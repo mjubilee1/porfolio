@@ -26,6 +26,96 @@ const Home = () => {
               </p>
             </div>
           </div>
+          {/* AI Agent Demo Section */}
+          <section id="ai-agent-demo" className="w-full py-12 md:py-24 lg:py-32 bg-gray-900 text-white">
+            <div className="container mx-auto px-4 md:px-6">
+              <div className="space-y-2 text-center">
+                <div className="inline-block rounded-lg bg-gray-800 px-3 py-1 text-sm font-medium text-gray-200">
+                  AI Agent Demo
+                </div>
+                <h2 className="text-3xl font-bold sm:text-5xl">Build • Retrieve • Plan • Approve</h2>
+                <p className="mx-auto max-w-3xl text-lg text-gray-300 md:text-xl">
+                  A TypeScript demo that ingests chat & docs to Pinecone (RAG), plans with Claude, and runs tools with
+                  human-in-the-loop approvals — deployed on Render with a Next.js UI + Hono backend.
+                </p>
+              </div>
+
+              <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 items-stretch">
+                {/* Preview card / image */}
+                <div className="group relative overflow-hidden rounded-xl border border-white/10 bg-gray-800">
+                  <div className="relative h-64 sm:h-80">
+                    {/* replace with a real screenshot in /public if you have one */}
+                    <img
+                      src="/ai-agent-demo.png"
+                      alt="AI Agent Demo preview"
+                      className="absolute inset-0 h-full w-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <div className="p-6 space-y-4">
+                    <p className="text-gray-200">
+                      Chat with the agent, see retrieved evidence (Top-k), and approve proposed actions (HITL) like
+                      creating Trello cards or adding calendar events.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">TypeScript</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">Next.js</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">Hono</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">Pinecone</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">OpenAI Embeddings (1536-d)</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">Claude (Planner)</span>
+                      <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs">Render</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Details / features / CTAs */}
+                <div className="rounded-xl border border-white/10 bg-gray-800 p-6 flex flex-col">
+                  <h3 className="text-xl font-semibold">What’s inside</h3>
+                  <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-200">
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ RAG with Pinecone (1536-d)</li>
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ Query filters by session/org</li>
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ Claude plans JSON actions</li>
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ Approvals (HITL) before tools run</li>
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ Next.js UI w/ evidence panel</li>
+                    <li className="rounded-lg bg-white/5 border border-white/10 p-3">✅ Hono backend + API routes</li>
+                  </ul>
+
+                  <div className="mt-6 text-sm text-gray-300">
+                    <p><span className="font-semibold">Flow:</span> Embed query → Pinecone Top-k → Build context → Claude JSON → Proposals → Approve/Reject → (Execute).</p>
+                  </div>
+
+                  <div className="mt-6 flex flex-wrap gap-4">
+                    {/* If you have a dedicated demo route, update href to it (e.g., /agent) */}
+                    <a
+                      href="/"
+                      className="inline-flex items-center justify-center rounded-md bg-green-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+                    >
+                      Open Demo
+                    </a>
+                    <a
+                      href="https://github.com/mjubilee1/Ai-Agent-Demo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+
+                  {/* Tiny usage snippet (optional). Remove if you want it cleaner. */}
+                  <pre className="mt-6 overflow-x-auto rounded-lg bg-black/60 p-4 text-xs text-gray-200">
+          {`// POST /api/chat
+          fetch("/api/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ sessionId: "demo", message: "Summarize inbox." })
+          }).then(r => r.json());`}
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="group relative overflow-hidden rounded-lg shadow-lg flex flex-col h-full transition-transform duration-300 hover:scale-105">
               <div className="relative h-60">
