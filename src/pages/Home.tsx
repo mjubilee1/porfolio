@@ -87,7 +87,7 @@ const Home = () => {
                   <div className="mt-6 flex flex-wrap gap-4">
                     {/* If you have a dedicated demo route, update href to it (e.g., /agent) */}
                     <a
-                      href="/"
+                      href="https://ai-agent-frontend-2yu3.onrender.com"
                       className="inline-flex items-center justify-center rounded-md bg-green-600 px-6 py-2 text-sm font-medium text-white shadow-lg transition-colors hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
                     >
                       Open Demo
